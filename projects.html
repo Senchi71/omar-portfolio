@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>أعمالي | Omar.S</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #080808;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      padding: 25px 8%;
+      border-bottom: 1px solid #292929;
+      text-align: center;
+    }
+
+    .logo {
+      color: #d4af37;
+      font-size: 27px;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 75px 20px 45px;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 15px;
+    }
+
+    .hero h1 span {
+      color: #d4af37;
+    }
+
+    .hero p {
+      color: #aaa;
+      line-height: 1.8;
+    }
+
+    .projects {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #151515;
+      border: 1px solid #292929;
+      border-radius: 15px;
+      overflow: hidden;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: #d4af37;
+    }
+
+    .project-image {
+      height: 180px;
+      background: linear-gradient(135deg, #163c25, #07150d);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #a7e6ad;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .card-content {
+      padding: 22px;
+    }
+
+    .card h2 {
+      color: #d4af37;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: #aaa;
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+
+    .project-btn {
+      display: inline-block;
+      padding: 11px 22px;
+      background: #d4af37;
+      color: #080808;
+      text-decoration: none;
+      border-radius: 7px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 35px 15px;
+      color: #777;
+      margin-top: 60px;
+      border-top: 1px solid #292929;
+    }
+
+    .back {
+      display: inline-block;
+      margin-top: 20px;
+      color: #d4af37;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">Omar.S</div>
+  </header>
+
+  <section class="hero">
+    <h1>معرض <span>أعمالي</span></h1>
+    <p>
+      مجموعة من المشاريع والمواقع الإلكترونية
+      التي قمت بتصميمها وتطويرها.
+    </p>
+    <a href="index.html" class="back">العودة للرئيسية ←</a>
+  </section>
+
+  <section class="projects">
+
+    <div class="card">
+      <div class="project-image">
+        Green Balance
+      </div>
+
+      <div class="card-content">
+        <h2>Green Balance</h2>
+        <p>
+          موقع إلكتروني متخصص في الصحة والتغذية
+          وتصميم تجربة استخدام عصرية.
+        </p>
+
+        <a href="https://senchi71.github.io/Green-Balance/"
+   class="project-btn"
+   target="_blank"
+   rel="noopener noreferrer">
+   معاينة المشروع
+</a>
+  
+        </>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    © 2026 Omar.S - جميع الحقوق محفوظة
+  </footer>
+
+</body>
+</html>

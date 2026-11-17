@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omar.S | Personal Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: #080808;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      padding: 22px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #242424;
+    }
+
+    .logo {
+      color: #d6ad55;
+      font-size: 27px;
+      font-weight: bold;
+      direction: ltr;
+    }
+
+    nav a {
+      color: #ddd;
+      text-decoration: none;
+      margin-right: 18px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #d6ad55;
+    }
+
+    .hero {
+      min-height: 75vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 18px;
+    }
+
+    .hero h1 span {
+      color: #d6ad55;
+    }
+
+    .hero p {
+      color: #aaa;
+      line-height: 1.9;
+      max-width: 550px;
+      margin-bottom: 28px;
+    }
+
+    .btn {
+      background: #d6ad55;
+      color: #080808;
+      padding: 13px 28px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 65px 8%;
+      text-align: center;
+    }
+
+    section h2 {
+      color: #d6ad55;
+      font-size: 30px;
+      margin-bottom: 22px;
+    }
+
+    section p {
+      color: #aaa;
+      line-height: 2;
+    }
+
+    .project {
+      border: 1px solid #333;
+      padding: 25px;
+      border-radius: 10px;
+      margin: 15px auto;
+      max-width: 500px;
+      background: #111;
+    }
+
+    .project h3 {
+      color: #d6ad55;
+      margin-bottom: 12px;
+    }
+
+    footer {
+      border-top: 1px solid #242424;
+      padding: 25px;
+      text-align: center;
+      color: #888;
+      direction: ltr;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        gap: 18px;
+      }
+
+      nav a {
+        margin: 0 7px;
+      }
+
+      .hero h1 {
+        font-size: 36px;
+      }
+    }
+
+    .logo img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+  <img src="logo.png" alt="Omar.S Logo">
+</div>
+
+    <nav>
+      <a href="#home">الرئيسية</a>
+      <a href="#about">عني</a>
+      <a href="#work">أعمالي</a>
+      <a href="#contact">تواصل</a>
+    </nav>
+  </header>
+
+  <div class="hero" id="home">
+    <h1>مرحباً، أنا <span>Omar.S</span></h1>
+    <p>
+      أتعلم وأصنع تجارب رقمية مميزة.
+      هنا أشارك مشاريعي وأفكاري ورحلتي في عالم التكنولوجيا.
+    </p>
+    <a href="#work" class="btn">اكتشف أعمالي</a>
+  </div>
+
+  <section id="about">
+    <h2>من أنا؟</h2>
+    <p>
+      أنا عمر، مهتم بتصميم المواقع والبرمجة
+      والذكاء الاصطناعي. أسعى دائماً لتعلم
+      مهارات جديدة وتحويل الأفكار إلى مشاريع حقيقية.
+    </p>
+  </section>
+
+  <section id="work">
+    <h2>مشاريعي</h2>
+
+    <div class="project">
+    <h3>مشروع تصميم المواقع</h3>
+    <p>أعمل على تصميم وتطوير مواقع إلكترونية عصرية وسريعة ومتجاوبة مع جميع الأجهزة.</p>
+    <a href="projects.html" class="project-btn">شاهد أعمالي</a>
+</div>
+    
+</div>
+
+  </section>
+
+
+<section id="contact">
+    <h2>تواصل معي</h2>
+    <p>يسعدني التواصل ومشاركة الأفكار والمشاريع.</p>
+
+    <div class="contact-buttons">
+        <a href="https://wa.me/201038780953"
+           class="contact-btn" target="_blank">
+            تواصل عبر واتساب
+        </a>
+
+        <a href="omar.s778855@gmail.com"
+           class="contact-btn">
+            راسلني عبر البريد الإلكتروني
+        </a>
+    </div>
+</section>
+
+<style>
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 13px 25px;
+    background: #d6ad55;
+    color: #111;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    background: #f0ca79;
+    transform: translateY(-3px);
+}
+</style>
+
+  <footer>
+    © 2026 Omar.S — BUILD • CREATE • INNOVATE
+  </footer>
+<style>
+.site-name {
+color: #d6ad55;  
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+  .project-btn {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 12px 28px;
+    background: #d6ad55;
+    color: #111;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.project-btn:hover {
+    background: #f0ca79;
+    transform: translateY(-3px);
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const header = document.querySelector("header");
+    if (header) {
+        const name = document.createElement("div");
+        name.className = "site-name";
+        name.textContent = "Omar.S";
+        header.appendChild(name);
+    }
+});
+</script>
+</body>
+</html>
