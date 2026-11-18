@@ -1,175 +1,89 @@
-
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>أعمالي | Omar.S</title>
+  <meta name="description" content="مواقع صممتها وبرمجتها: تقدر تفتحها وتجربها بنفسك.">
+  <meta name="theme-color" content="#0b0b0b">
+  <link rel="canonical" href="https://senchi71.github.io/omar-portfolio/projects.html">
+  <link rel="icon" href="logo.png">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ar_EG">
+  <meta property="og:title" content="أعمالي | Omar.S">
+  <meta property="og:description" content="مواقع صممتها وبرمجتها: تقدر تفتحها وتجربها بنفسك.">
+  <meta property="og:image" content="https://senchi71.github.io/omar-portfolio/logo.png">
 
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      background: #080808;
-      color: white;
-      font-family: Arial, sans-serif;
-    }
-
-    header {
-      padding: 25px 8%;
-      border-bottom: 1px solid #292929;
-      text-align: center;
-    }
-
-    .logo {
-      color: #d4af37;
-      font-size: 27px;
-      font-weight: bold;
-    }
-
-    .hero {
-      text-align: center;
-      padding: 75px 20px 45px;
-    }
-
-    .hero h1 {
-      font-size: 36px;
-      margin-bottom: 15px;
-    }
-
-    .hero h1 span {
-      color: #d4af37;
-    }
-
-    .hero p {
-      color: #aaa;
-      line-height: 1.8;
-    }
-
-    .projects {
-      max-width: 1000px;
-      margin: auto;
-      padding: 20px;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 25px;
-    }
-
-    .card {
-      background: #151515;
-      border: 1px solid #292929;
-      border-radius: 15px;
-      overflow: hidden;
-      transition: 0.3s;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-      border-color: #d4af37;
-    }
-
-    .project-image {
-      height: 180px;
-      background: linear-gradient(135deg, #163c25, #07150d);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #a7e6ad;
-      font-size: 28px;
-      font-weight: bold;
-    }
-
-    .card-content {
-      padding: 22px;
-    }
-
-    .card h2 {
-      color: #d4af37;
-      margin-bottom: 12px;
-    }
-
-    .card p {
-      color: #aaa;
-      line-height: 1.7;
-      margin-bottom: 20px;
-    }
-
-    .project-btn {
-      display: inline-block;
-      padding: 11px 22px;
-      background: #d4af37;
-      color: #080808;
-      text-decoration: none;
-      border-radius: 7px;
-      font-weight: bold;
-    }
-
-    footer {
-      text-align: center;
-      padding: 35px 15px;
-      color: #777;
-      margin-top: 60px;
-      border-top: 1px solid #292929;
-    }
-
-    .back {
-      display: inline-block;
-      margin-top: 20px;
-      color: #d4af37;
-      text-decoration: none;
-    }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Readex+Pro:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <a class="skip" href="#main">تخطي إلى المحتوى</a>
 
-  <header>
-    <div class="logo">Omar.S</div>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <img src="logo.png" alt="" width="38" height="38">
+        Omar.S
+      </a>
+      <nav class="nav" aria-label="القائمة الرئيسية">
+        <a href="index.html#services">الخدمات</a>
+        <a href="index.html#process">طريقة الشغل</a>
+        <a class="btn btn-primary" href="index.html#contact">كلمني</a>
+      </nav>
+    </div>
   </header>
 
-  <section class="hero">
-    <h1>معرض <span>أعمالي</span></h1>
-    <p>
-      مجموعة من المشاريع والمواقع الإلكترونية
-      التي قمت بتصميمها وتطويرها.
-    </p>
-    <a href="index.html" class="back">العودة للرئيسية ←</a>
-  </section>
-
-  <section class="projects">
-
-    <div class="card">
-      <div class="project-image">
-        Green Balance
-      </div>
-
-      <div class="card-content">
-        <h2>Green Balance</h2>
-        <p>
-          موقع إلكتروني متخصص في الصحة والتغذية
-          وتصميم تجربة استخدام عصرية.
-        </p>
-
-        <a href="https://senchi71.github.io/Green-Balance/"
-   class="project-btn"
-   target="_blank"
-   rel="noopener noreferrer">
-   معاينة المشروع
-</a>
-  
-        </>
-      </div>
+  <main id="main">
+    <div class="wrap page-head">
+      <a class="back" href="index.html">الرجوع للرئيسية</a>
+      <h1>معرض أعمالي</h1>
+      <p>مواقع صممتها وبرمجتها. افتح أي موقع وجرّبه بنفسك.</p>
     </div>
 
-  </section>
+    <div class="wrap" style="padding-bottom: 84px;">
+      <article class="work-card">
+        <div>
+          <h3>Green Balance</h3>
+          <p>موقع للصحة والتغذية بتصميم عصري وتجربة استخدام سهلة.</p>
+          <ul class="tags">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <a class="btn btn-primary" href="https://senchi71.github.io/Green-Balance/" target="_blank" rel="noopener">افتح الموقع</a>
+        </div>
+        <div class="preview" data-preview>
+          <iframe src="https://senchi71.github.io/Green-Balance/" title="معاينة موقع Green Balance" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+        </div>
+      </article>
 
-  <footer>
-    © 2026 Omar.S - جميع الحقوق محفوظة
+      <div class="next-slot">
+        <span><strong>عايز موقع زي ده لمشروعك؟</strong> ابعتلي وأرد عليك بتصور وسعر واضح.</span>
+        <a class="btn btn-primary" href="index.html#contact">كلمني</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Omar.S. جميع الحقوق محفوظة</span>
+      <span><a href="index.html">الرئيسية</a></span>
+    </div>
   </footer>
 
+  <script>
+    function fitPreviews() {
+      document.querySelectorAll("[data-preview]").forEach(function (box) {
+        var frame = box.querySelector("iframe");
+        if (frame) frame.style.transform = "scale(" + box.clientWidth / 1280 + ")";
+      });
+    }
+    window.addEventListener("load", fitPreviews);
+    window.addEventListener("resize", fitPreviews);
+    fitPreviews();
+  </script>
 </body>
 </html>

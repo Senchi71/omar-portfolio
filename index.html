@@ -3,273 +3,281 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Omar.S | Personal Portfolio</title>
+  <title>عمر | مطوّر مواقع للمحلات والعيادات والمشاريع الصغيرة</title>
+  <meta name="description" content="أصمم وأبرمج مواقع سريعة وتشتغل كويس على الموبايل للمحلات والعيادات والمشاريع الصغيرة في مصر، وزرار واتساب يوصّل العميل ليك مباشرة.">
+  <meta name="theme-color" content="#0b0b0b">
+  <link rel="canonical" href="https://senchi71.github.io/omar-portfolio/">
+  <link rel="icon" href="logo.png">
 
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      scroll-behavior: smooth;
-    }
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ar_EG">
+  <meta property="og:title" content="عمر | مطوّر مواقع للمحلات والعيادات والمشاريع الصغيرة">
+  <meta property="og:description" content="مواقع سريعة ومناسبة للموبايل، وزرار واتساب يوصّل العميل ليك مباشرة.">
+  <meta property="og:url" content="https://senchi71.github.io/omar-portfolio/">
+  <meta property="og:image" content="https://senchi71.github.io/omar-portfolio/logo.png">
+  <meta name="twitter:card" content="summary">
 
-    body {
-      background: #080808;
-      color: #fff;
-      font-family: Arial, sans-serif;
-    }
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Readex+Pro:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 
-    header {
-      padding: 22px 8%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom: 1px solid #242424;
-    }
-
-    .logo {
-      color: #d6ad55;
-      font-size: 27px;
-      font-weight: bold;
-      direction: ltr;
-    }
-
-    nav a {
-      color: #ddd;
-      text-decoration: none;
-      margin-right: 18px;
-      font-size: 14px;
-    }
-
-    nav a:hover {
-      color: #d6ad55;
-    }
-
-    .hero {
-      min-height: 75vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding: 30px 20px;
-    }
-
-    .hero h1 {
-      font-size: 48px;
-      margin-bottom: 18px;
-    }
-
-    .hero h1 span {
-      color: #d6ad55;
-    }
-
-    .hero p {
-      color: #aaa;
-      line-height: 1.9;
-      max-width: 550px;
-      margin-bottom: 28px;
-    }
-
-    .btn {
-      background: #d6ad55;
-      color: #080808;
-      padding: 13px 28px;
-      border-radius: 5px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    section {
-      padding: 65px 8%;
-      text-align: center;
-    }
-
-    section h2 {
-      color: #d6ad55;
-      font-size: 30px;
-      margin-bottom: 22px;
-    }
-
-    section p {
-      color: #aaa;
-      line-height: 2;
-    }
-
-    .project {
-      border: 1px solid #333;
-      padding: 25px;
-      border-radius: 10px;
-      margin: 15px auto;
-      max-width: 500px;
-      background: #111;
-    }
-
-    .project h3 {
-      color: #d6ad55;
-      margin-bottom: 12px;
-    }
-
-    footer {
-      border-top: 1px solid #242424;
-      padding: 25px;
-      text-align: center;
-      color: #888;
-      direction: ltr;
-    }
-
-    @media (max-width: 600px) {
-      header {
-        flex-direction: column;
-        gap: 18px;
-      }
-
-      nav a {
-        margin: 0 7px;
-      }
-
-      .hero h1 {
-        font-size: 36px;
-      }
-    }
-
-    .logo img {
-  width: 80px;
-  height: 80px;
-  object-fit: contain;
-}
-  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Omar.S",
+    "description": "تصميم وبرمجة مواقع للمحلات والعيادات والمشاريع الصغيرة",
+    "url": "https://senchi71.github.io/omar-portfolio/",
+    "areaServed": "EG",
+    "email": "omar.s778855@gmail.com",
+    "telephone": "+201038780953"
+  }
+  </script>
 </head>
-
 <body>
+  <a class="skip" href="#main">تخطي إلى المحتوى</a>
 
-  <header>
-    <div class="logo">
-  <img src="logo.png" alt="Omar.S Logo">
-</div>
-
-    <nav>
-      <a href="#home">الرئيسية</a>
-      <a href="#about">نبذه عني</a>
-      <a href="#work">أعمالي</a>
-      <a href="#contact">للتواصل معي</a>
-    </nav>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="#home">
+        <img src="logo.png" alt="" width="38" height="38">
+        Omar.S
+      </a>
+      <nav class="nav" aria-label="القائمة الرئيسية">
+        <a href="#services">الخدمات</a>
+        <a href="#work">أعمالي</a>
+        <a href="#process">طريقة الشغل</a>
+        <a href="#about">عني</a>
+        <a class="btn btn-primary" href="#contact">كلمني</a>
+      </nav>
+    </div>
   </header>
 
-  <div class="hero" id="home">
-    <h1>مرحباً، أنا <span>Omar</span></h1>
-    <p>
-      أصمم وأطور مواقع إلكترونية عصرية تجمع بين الإبداع وسهولة الاستخدام.
-      هنا أشارك مشاريعي وأعمالي الرقمية.
-    </p>
-    <a href="#work" class="btn">اكتشف أعمالي</a>
-  </div>
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="wrap">
+        <div>
+          <h1>موقع لمشروعك يخلّي الناس تلاقيك وتكلمك على واتساب</h1>
+          <p>أنا عمر. بصمم وببرمج مواقع سريعة وواضحة على الموبايل للمحلات والعيادات والمشاريع الصغيرة، من أول الفكرة لحد ما الموقع يشتغل أونلاين.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://wa.me/201038780953?text=%D8%A3%D9%87%D9%84%D8%A7%D9%8B%20%D8%B9%D9%85%D8%B1%D8%8C%20%D8%A3%D9%86%D8%A7%20%D8%B9%D8%A7%D9%8A%D8%B2%20%D9%85%D9%88%D9%82%D8%B9%20%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9%D9%8A%20%D9%88%D8%AD%D8%A7%D8%A8%D8%A8%20%D8%A3%D8%B9%D8%B1%D9%81%20%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D9%88%D8%A7%D9%84%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2a9.9 9.9 0 0 0-8.5 14.95L2 22l5.2-1.5A9.95 9.95 0 1 0 12.04 2Zm5.8 14.1c-.25.7-1.45 1.35-2 1.4-.5.05-1.1.2-3.7-.8-3.1-1.2-5.1-4.4-5.25-4.6-.15-.2-1.25-1.65-1.25-3.15s.8-2.25 1.05-2.55c.25-.3.55-.35.75-.35h.55c.2 0 .4 0 .6.45.25.55.8 1.95.85 2.1.1.15.15.3.05.5-.1.2-.15.3-.3.5l-.45.5c-.15.15-.3.3-.15.6.15.3.7 1.15 1.5 1.85 1.05.9 1.9 1.2 2.2 1.3.3.15.45.1.65-.1.2-.25.75-.85.95-1.15.2-.3.4-.25.65-.15.25.1 1.65.8 1.95.95.3.15.5.2.55.3.1.1.1.65-.15 1.35Z"/></svg>ابعتلي على واتساب</a>
+            <a class="btn btn-ghost" href="#work">شوف شغلي</a>
+          </div>
+        </div>
 
-  <section id="about">
-    <h2>نبذه عني</h2>
-    <p>
-      أنا عمر، مهتم بتصميم المواقع والبرمجة
-      والذكاء الاصطناعي. وأسعى دائماً لتعلم
-      مهارات جديدة وتحويل الأفكار إلى مشاريع حقيقية.
-    </p>
-  </section>
+        <div class="mock" role="img" aria-label="مثال توضيحي لموقع عيادة أسنان على المتصفح، وجنبه رسالة واتساب من عميل">
+          <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>clinic-sample.com</span></div>
+          <div class="sm-body" style="--m:#0f766e;--m-soft:#e8f6f4">
+              <div class="sm-nav"><b>عيادة بسمة</b><span><i></i><i></i><i></i></span></div>
+              <div class="sm-hero">
+                <div><b>ابتسامة صحية تبدأ من هنا</b><small>كشف وتنظيف وتقويم وزراعة. احجز موعدك من الموبايل.</small><em>احجز على واتساب</em></div>
+                <div class="sm-art"><svg viewBox="0 0 64 70" aria-hidden="true"><path fill="#fff" d="M32 8C22 2 8 6 8 20c0 10 6 16 7 26 1 10 3 18 8 18s5-14 9-14 4 14 9 14 7-8 8-18c1-10 7-16 7-26C56 6 42 2 32 8Z"/><path fill="none" stroke="#0f766e" stroke-width="2.5" stroke-linecap="round" d="M20 18c2-3 5-4 8-3"/></svg></div>
+              </div>
+              <div class="sm-cards"><div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/></svg>تنظيف وتبييض</div><div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/></svg>تقويم الأسنان</div><div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/></svg>زراعة الأسنان</div></div>
+              <div class="sm-map"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>شارع النصر، القاهرة. من 9 ص لـ 9 م</div>
+            </div>
+          <div class="bubble" aria-hidden="true">
+            <strong>رسالة جديدة</strong>
+            عايز أحجز كشف يوم الخميس
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section id="work">
-    <h2>المشاريع الخاصه بي</h2>
+    <section class="section" id="services">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>إيه اللي أقدر أعمله ليك</h2>
+          <p>مش لازم تعرف تفاصيل تقنية. قولي نشاطك وإنت عايز إيه، وأنا أقترح الأنسب.</p>
+        </div>
+        <ul class="services">
+          <li>
+            <h3>موقع تعريفي للمحل أو العيادة</h3>
+            <p>صفحات بتعرّف الناس بيك: الخدمات، الأسعار، العنوان على الخريطة، وزرار واتساب واضح في كل صفحة.</p>
+          </li>
+          <li>
+            <h3>صفحة هبوط للإعلانات</h3>
+            <p>صفحة واحدة مركزة على عرض أو منتج معيّن، تتفتح بسرعة من الإعلان وتخلّي الزائر يتواصل معاك.</p>
+          </li>
+          <li>
+            <h3>كتالوج منتجات أو متجر صغير</h3>
+            <p>تعرض منتجاتك بصورها وأسعارها، والعميل يطلب عن طريق واتساب أو نموذج طلب بسيط.</p>
+          </li>
+          <li>
+            <h3>تحديث موقع قديم</h3>
+            <p>عندك موقع شكله قديم أو بطيء أو مش بيظهر كويس على الموبايل؟ أطوّره من غير ما تبدأ من الصفر.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-    <div class="project">
-    <h3>مشروع تصميم المواقع</h3>
-    <p>أعمل على تصميم وتطوير مواقع إلكترونية عصرية وسريعة ومتجاوبة مع جميع الأجهزة.</p>
-    <a href="projects.html" class="project-btn">شاهد أعمالي</a>
-</div>
-    
-</div>
+    <section class="section" id="work">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>أعمالي</h2>
+          <p>مشروع حقيقي تقدر تفتحه وتجربه بنفسك.</p>
+        </div>
 
-  </section>
+        <article class="work-card">
+          <div>
+            <h3>Green Balance</h3>
+            <p>موقع للصحة والتغذية بتصميم عصري وتجربة استخدام سهلة.</p>
+            <ul class="tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <a class="btn btn-primary" href="https://senchi71.github.io/Green-Balance/" target="_blank" rel="noopener">افتح الموقع</a>
+          </div>
+          <div class="preview" data-preview>
+            <iframe src="https://senchi71.github.io/Green-Balance/" title="معاينة موقع Green Balance" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+          </div>
+        </article>
 
+        <h3 class="sub-head">نماذج لمواقع أقدر أعملها لمشروعك</h3>
+        <p class="sub-note">دي تصميمات توضيحية بأسماء افتراضية، عشان تشوف شكل الموقع لو نشاطك عيادة أو مطعم أو محل.</p>
 
-<section id="contact">
-    <h2>تواصل معي</h2>
-    <p>يسعدني التواصل ومشاركة الأفكار والمشاريع.</p>
+        <div class="samples">
+          <article class="sample">
+            <div class="mock" role="img" aria-label="نموذج لموقع عيادة أسنان">
+              <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>clinic-sample.com</span></div>
+              <div class="sm-body" style="--m:#0f766e;--m-soft:#e8f6f4">
+              <div class="sm-nav"><b>عيادة بسمة</b><span><i></i><i></i><i></i></span></div>
+              <div class="sm-hero">
+                <div><b>ابتسامة صحية تبدأ من هنا</b><small>كشف وتنظيف وتقويم وزراعة. احجز موعدك من الموبايل.</small><em>احجز على واتساب</em></div>
+                <div class="sm-art"><svg viewBox="0 0 64 70" aria-hidden="true"><path fill="#fff" d="M32 8C22 2 8 6 8 20c0 10 6 16 7 26 1 10 3 18 8 18s5-14 9-14 4 14 9 14 7-8 8-18c1-10 7-16 7-26C56 6 42 2 32 8Z"/><path fill="none" stroke="#0f766e" stroke-width="2.5" stroke-linecap="round" d="M20 18c2-3 5-4 8-3"/></svg></div>
+              </div>
+              <div class="sm-cards"><div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/></svg>تنظيف وتبييض</div><div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/></svg>تقويم الأسنان</div><div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/></svg>زراعة الأسنان</div></div>
+              <div class="sm-map"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>شارع النصر، القاهرة. من 9 ص لـ 9 م</div>
+            </div>
+            </div>
+            <h3>موقع عيادة أسنان</h3>
+            <p>خدمات العيادة، حجز عن طريق واتساب، والعنوان ومواعيد العمل.</p>
+            <span class="sample-tag">نموذج توضيحي</span>
+          </article>
 
-    <div class="contact-buttons">
-        <a href="https://wa.me/201038780953"
-           class="contact-btn" target="_blank">
-            تواصل عبر واتساب
-        </a>
+          <article class="sample">
+            <div class="mock" role="img" aria-label="نموذج لموقع مطعم">
+              <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>restaurant-sample.com</span></div>
+              <div class="sm-body" style="--m:#b4391f;--m-soft:#fff1e8">
+                <div class="sm-nav"><b>مطعم دوّار الشمس</b><span><i></i><i></i><i></i></span></div>
+                <div class="sm-hero">
+                  <div><b>أكل بيتي بطعم يفكّرك بمامتك</b><small>اطلب دلوقتي والتوصيل لحد بابك.</small><em>اطلب على واتساب</em></div>
+                  <div class="sm-art"><svg viewBox="0 0 80 80" aria-hidden="true"><circle cx="40" cy="40" r="34" fill="#fff"/><circle cx="40" cy="40" r="25" fill="none" stroke="#b4391f" stroke-width="2" opacity=".5"/><circle cx="34" cy="36" r="9" fill="#e0763a"/><circle cx="48" cy="44" r="8" fill="#6a9a3a"/><circle cx="42" cy="30" r="5" fill="#f2c14e"/></svg></div>
+                </div>
+                <div class="sm-menu">
+                  <div>طاجن لحم بالبصل<span>180 ج</span></div>
+                  <div>فراخ مشوية بالأرز<span>120 ج</span></div>
+                  <div>ملوخية بالأرانب<span>150 ج</span></div>
+                </div>
+              </div>
+            </div>
+            <h3>موقع مطعم أو كافيه</h3>
+            <p>قائمة طعام واضحة بالأسعار، وطلب مباشر عن طريق واتساب.</p>
+            <span class="sample-tag">نموذج توضيحي</span>
+          </article>
 
-        <a href="mailto:omar.s778855@gmail.com"
-           class="contact-btn">
-            راسلني عبر البريد الإلكتروني
-        </a>
+          <article class="sample">
+            <div class="mock" role="img" aria-label="نموذج لكتالوج منتجات">
+              <div class="mock-bar" aria-hidden="true"><i></i><i></i><i></i><span>shop-sample.com</span></div>
+              <div class="sm-body" style="--m:#3b3f9e;--m-soft:#eef0ff">
+                <div class="sm-nav"><b>متجر لمسة</b><span><i></i><i></i><i></i></span></div>
+                <div class="sm-hero">
+                  <div><b>منتجات مختارة بعناية لبيتك</b><small>شحن لكل المحافظات والدفع عند الاستلام.</small><em>تصفّح المنتجات</em></div>
+                  <div class="sm-art"><svg viewBox="0 0 60 44" aria-hidden="true"><rect x="12" y="14" width="36" height="26" rx="4" fill="#3b3f9e"/><path d="M22 14v-3a8 8 0 0 1 16 0v3" fill="none" stroke="#3b3f9e" stroke-width="3"/></svg></div>
+                </div>
+                <div class="sm-products">
+                  <div><svg viewBox="0 0 60 44" aria-hidden="true"><rect x="12" y="14" width="36" height="26" rx="4" fill="#3b3f9e"/><path d="M22 14v-3a8 8 0 0 1 16 0v3" fill="none" stroke="#3b3f9e" stroke-width="3"/></svg><b>حقيبة</b>350 ج</div>
+                  <div><svg viewBox="0 0 60 44" aria-hidden="true"><path d="M16 10h26v16a13 13 0 0 1-26 0Z" fill="#e0763a"/><path d="M42 14h4a6 6 0 0 1 0 12h-4" fill="none" stroke="#e0763a" stroke-width="3"/></svg><b>مج</b>90 ج</div>
+                  <div><svg viewBox="0 0 60 44" aria-hidden="true"><path d="M12 8h18l18 18-14 14L12 22Z" fill="#6a9a3a"/><circle cx="21" cy="17" r="3" fill="#fff"/></svg><b>عرض خاص</b>٪20</div>
+                </div>
+              </div>
+            </div>
+            <h3>كتالوج منتجات أو متجر</h3>
+            <p>منتجاتك بصورها وأسعارها، والعميل يطلب في خطوتين.</p>
+            <span class="sample-tag">نموذج توضيحي</span>
+          </article>
+        </div>
+
+        <div class="next-slot">
+          <span><strong>مشروعك ممكن يكون الجاي هنا.</strong> أول مشاريع بعمل فيها خصم مقابل إنك تسمح لي أعرض الشغل.</span>
+          <a class="btn btn-ghost" href="#contact">اتكلم معايا</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>طريقة الشغل</h2>
+          <p>خطوات واضحة، وإنت عارف إحنا فين في أي وقت.</p>
+        </div>
+        <ol class="steps">
+          <li>
+            <h3>تكلمني</h3>
+            <p>تقولي نشاطك وإنت عايز الموقع يعمل إيه، ونتفق على الصفحات والمدة والسعر كتابةً.</p>
+          </li>
+          <li>
+            <h3>أبعتلك تصور</h3>
+            <p>أعرض عليك شكل الموقع قبل ما أكمّل، وتقولي رأيك.</p>
+          </li>
+          <li>
+            <h3>أبني وأعدّل</h3>
+            <p>أبرمج الموقع وأعدّل معاك على الملاحظات في حدود المتفق عليه.</p>
+          </li>
+          <li>
+            <h3>أسلّم وأرفعه</h3>
+            <p>الموقع يشتغل أونلاين وتستلم كل الملفات، وأفضل متاح لو احتجت حاجة بعد التسليم.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="wrap about">
+        <div class="section-head">
+          <h2>عني</h2>
+        </div>
+        <p>أنا عمر، مطوّر مواقع مصري. بحب أحوّل فكرة صاحب المشروع لموقع بسيط وواضح يخدم هدف محدد: إن الزائر يفهم إنت بتقدم إيه ويتواصل معاك بأقل عدد خطوات.</p>
+        <p>شغال بـ HTML وCSS وJavaScript، وبتعلم كل يوم تقنيات جديدة. لما تشتغل معايا هتتكلم معايا أنا مباشرة، مش مع وسيط.</p>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="wrap">
+        <h2>عندك مشروع؟ ابعتلي رسالة قصيرة</h2>
+        <p>قولي نشاطك وإنت عايز إيه، وأرد عليك بتصور مبدئي وسعر واضح من غير التزام.</p>
+        <div class="contact-actions">
+          <a class="btn btn-dark" href="https://wa.me/201038780953?text=%D8%A3%D9%87%D9%84%D8%A7%D9%8B%20%D8%B9%D9%85%D8%B1%D8%8C%20%D8%A3%D9%86%D8%A7%20%D8%B9%D8%A7%D9%8A%D8%B2%20%D9%85%D9%88%D9%82%D8%B9%20%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9%D9%8A%20%D9%88%D8%AD%D8%A7%D8%A8%D8%A8%20%D8%A3%D8%B9%D8%B1%D9%81%20%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D9%88%D8%A7%D9%84%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2a9.9 9.9 0 0 0-8.5 14.95L2 22l5.2-1.5A9.95 9.95 0 1 0 12.04 2Zm5.8 14.1c-.25.7-1.45 1.35-2 1.4-.5.05-1.1.2-3.7-.8-3.1-1.2-5.1-4.4-5.25-4.6-.15-.2-1.25-1.65-1.25-3.15s.8-2.25 1.05-2.55c.25-.3.55-.35.75-.35h.55c.2 0 .4 0 .6.45.25.55.8 1.95.85 2.1.1.15.15.3.05.5-.1.2-.15.3-.3.5l-.45.5c-.15.15-.3.3-.15.6.15.3.7 1.15 1.5 1.85 1.05.9 1.9 1.2 2.2 1.3.3.15.45.1.65-.1.2-.25.75-.85.95-1.15.2-.3.4-.25.65-.15.25.1 1.65.8 1.95.95.3.15.5.2.55.3.1.1.1.65-.15 1.35Z"/></svg>ابعتلي على واتساب</a>
+          <a class="btn btn-line" href="mailto:omar.s778855@gmail.com">ابعتلي إيميل</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Omar.S. جميع الحقوق محفوظة</span>
+      <span><a href="projects.html">كل المشاريع</a></span>
     </div>
-</section>
-
-<style>
-.contact-buttons {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-top: 25px;
-}
-
-.contact-btn {
-    display: inline-block;
-    padding: 13px 25px;
-    background: #d6ad55;
-    color: #111;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.contact-btn:hover {
-    background: #f0ca79;
-    transform: translateY(-3px);
-}
-</style>
-
-  <footer>
-    © 2026 Omar.S — BUILD • CREATE • INNOVATE
   </footer>
-<style>
-.site-name {
-color: #d6ad55;  
-    font-size: 28px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-align: center;
-}
-  .project-btn {
-    display: inline-block;
-    margin-top: 18px;
-    padding: 12px 28px;
-    background: #d6ad55;
-    color: #111;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: 0.3s ease;
-}
 
-.project-btn:hover {
-    background: #f0ca79;
-    transform: translateY(-3px);
-}
-</style>
+  <a class="fab" href="https://wa.me/201038780953?text=%D8%A3%D9%87%D9%84%D8%A7%D9%8B%20%D8%B9%D9%85%D8%B1%D8%8C%20%D8%A3%D9%86%D8%A7%20%D8%B9%D8%A7%D9%8A%D8%B2%20%D9%85%D9%88%D9%82%D8%B9%20%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9%D9%8A%20%D9%88%D8%AD%D8%A7%D8%A8%D8%A8%20%D8%A3%D8%B9%D8%B1%D9%81%20%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D9%88%D8%A7%D9%84%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1." target="_blank" rel="noopener" aria-label="تواصل على واتساب">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2a9.9 9.9 0 0 0-8.5 14.95L2 22l5.2-1.5A9.95 9.95 0 1 0 12.04 2Zm5.8 14.1c-.25.7-1.45 1.35-2 1.4-.5.05-1.1.2-3.7-.8-3.1-1.2-5.1-4.4-5.25-4.6-.15-.2-1.25-1.65-1.25-3.15s.8-2.25 1.05-2.55c.25-.3.55-.35.75-.35h.55c.2 0 .4 0 .6.45.25.55.8 1.95.85 2.1.1.15.15.3.05.5-.1.2-.15.3-.3.5l-.45.5c-.15.15-.3.3-.15.6.15.3.7 1.15 1.5 1.85 1.05.9 1.9 1.2 2.2 1.3.3.15.45.1.65-.1.2-.25.75-.85.95-1.15.2-.3.4-.25.65-.15.25.1 1.65.8 1.95.95.3.15.5.2.55.3.1.1.1.65-.15 1.35Z"/></svg>
+    <span>واتساب</span>
+  </a>
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    const header = document.querySelector("header");
-    if (header) {
-        const name = document.createElement("div");
-        name.className = "site-name";
-        name.textContent = "Omar.S";
-        header.appendChild(name);
+  <script>
+    function fitPreviews() {
+      document.querySelectorAll("[data-preview]").forEach(function (box) {
+        var frame = box.querySelector("iframe");
+        if (frame) frame.style.transform = "scale(" + box.clientWidth / 1280 + ")";
+      });
     }
-});
-</script>
+    window.addEventListener("load", fitPreviews);
+    window.addEventListener("resize", fitPreviews);
+    fitPreviews();
+  </script>
 </body>
 </html>
